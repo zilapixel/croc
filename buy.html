@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy $CROC - Get Started Now</title>
+    <meta name="description" content="Buy $CROC tokens on Solana blockchain via Jupiter Aggregator">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/premium.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">$CROC</a>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="what-is.html">What is $CROC</a></li>
+                <li><a href="tokenomics.html">Tokenomics</a></li>
+                <li><a href="roadmap.html">Roadmap</a></li>
+                <li><a href="buy.html">Buy</a></li>
+                <li><a href="team.html">Team</a></li>
+            </ul>
+            <div class="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section style="min-height: 50vh; display: flex; align-items: center; padding-top: 120px; position: relative;">
+        <div class="grid-bg"></div>
+        <div class="particle-bg"></div>
+        <div class="container" style="position: relative; z-index: 1;">
+            <div class="fade-in" style="text-align: center;">
+                <h1 class="text-glow-strong" style="margin-bottom: 24px;">Buy $CROC</h1>
+                <p style="font-size: 20px; color: var(--color-text-secondary); max-width: 800px; margin: 0 auto;">
+                    Get started with $CROC Protocol on Solana blockchain
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Token Info Section -->
+    <section style="padding: 100px 0;">
+        <div class="container">
+            <div class="glass-card neon-border reveal" style="max-width: 900px; margin: 0 auto; padding: 48px;">
+                <h2 class="gradient-text" style="text-align: center; margin-bottom: 32px;">Token Information</h2>
+                
+                <div style="background: rgba(0, 255, 65, 0.05); padding: 24px; border-radius: 12px; border: 1px solid var(--color-glass-border); margin-bottom: 32px;">
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px;">
+                        <span style="color: var(--color-text-secondary); font-size: 16px;">Token Symbol</span>
+                        <span style="color: var(--color-accent-primary); font-weight: 600; font-size: 18px;">$CROC</span>
+                    </div>
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px;">
+                        <span style="color: var(--color-text-secondary); font-size: 16px;">Blockchain</span>
+                        <span style="color: var(--color-text-primary); font-weight: 600; font-size: 18px;">Solana</span>
+                    </div>
+                    <div style="margin-top: 24px; padding-top: 24px; border-top: 1px solid var(--color-glass-border);">
+                        <p style="color: var(--color-text-secondary); font-size: 14px; margin-bottom: 12px;">Contract Address:</p>
+                        <div style="display: flex; gap: 12px; align-items: center; background: rgba(0, 0, 0, 0.3); padding: 16px; border-radius: 8px;">
+                            <code id="contractAddress" style="flex: 1; color: var(--color-accent-primary); font-size: 14px; word-break: break-all; font-family: 'Courier New', monospace;">
+                                Ev1ZTKVxKoVxnJGHcskowVHXezpe8aoVgvLJqwELpump
+                            </code>
+                            <button onclick="copyToClipboard('Ev1ZTKVxKoVxnJGHcskowVHXezpe8aoVgvLJqwELpump')" class="btn btn-secondary" style="padding: 8px 16px; font-size: 14px; white-space: nowrap;">
+                                <i class="fas fa-copy"></i> Copy
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Buy Button -->
+                <div style="text-align: center; margin: 48px 0;">
+                    <a href="https://jup.ag" target="_blank" class="btn btn-primary glow" style="font-size: 20px; padding: 24px 64px; display: inline-flex; align-items: center; gap: 12px;">
+                        <i class="fas fa-shopping-cart"></i>
+                        Buy $CROC on Jupiter
+                    </a>
+                    <p style="margin-top: 16px; font-size: 14px; color: var(--color-text-secondary);">
+                        Best rates via Jupiter Aggregator
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Wallet Connection Section -->
+    <section style="padding: 100px 0; background: linear-gradient(135deg, rgba(0, 255, 65, 0.05), transparent); position: relative;">
+        <div class="grid-bg"></div>
+        <div class="container" style="position: relative; z-index: 1;">
+            <div class="section-title fade-in">
+                <h2 class="text-glow">Connect Your Wallet</h2>
+                <p>Use Phantom or any Solana-compatible wallet</p>
+            </div>
+            
+            <div style="max-width: 600px; margin: 64px auto;">
+                <div class="glass-card neon-border tilt-card reveal" style="padding: 48px; text-align: center;">
+                    <div style="font-size: 72px; margin-bottom: 24px;">👛</div>
+                    <h3 style="color: var(--color-accent-primary); margin-bottom: 24px;">Phantom Wallet</h3>
+                    <p style="margin-bottom: 32px; line-height: 1.8;">
+                        Connect your Phantom wallet to interact with $CROC Protocol on Solana blockchain.
+                    </p>
+                    <button id="connectWalletBtn" class="btn btn-primary glow" style="width: 100%; font-size: 18px; padding: 20px;">
+                        <i class="fas fa-wallet"></i> Connect Phantom Wallet
+                    </button>
+                    <div id="walletStatus" style="margin-top: 24px; padding: 16px; background: rgba(0, 255, 65, 0.1); border-radius: 8px; display: none;">
+                        <p style="margin: 0; color: var(--color-accent-primary); font-weight: 600;">
+                            <i class="fas fa-check-circle"></i> Wallet Connected
+                        </p>
+                        <p id="walletAddress" style="margin: 8px 0 0 0; font-size: 14px; color: var(--color-text-secondary); word-break: break-all;"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Chart Section -->
+    <section style="padding: 100px 0;">
+        <div class="container">
+            <div class="section-title fade-in">
+                <h2 class="text-glow">Live Chart</h2>
+                <p>Track $CROC price in real-time</p>
+            </div>
+            
+            <div style="max-width: 1200px; margin: 64px auto;">
+                <div class="glass-card neon-border reveal" style="padding: 32px;">
+                    <div id="chartContainer" style="width: 100%; height: 600px; background: rgba(0, 0, 0, 0.3); border-radius: 12px; display: flex; align-items: center; justify-content: center;">
+                        <div style="text-align: center;">
+                            <div style="font-size: 64px; margin-bottom: 24px;">📊</div>
+                            <h3 class="gradient-text" style="margin-bottom: 16px;">Chart Coming Soon</h3>
+                            <p style="color: var(--color-text-secondary); margin-bottom: 32px;">
+                                Live price chart will be available after listing
+                            </p>
+                            <div style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;">
+                                <a href="https://dexscreener.com" target="_blank" class="btn btn-secondary">
+                                    <i class="fas fa-chart-line"></i> Dexscreener
+                                </a>
+                                <a href="https://birdeye.so" target="_blank" class="btn btn-secondary">
+                                    <i class="fas fa-chart-area"></i> Birdeye
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How to Buy Section -->
+    <section style="padding: 100px 0; background: linear-gradient(135deg, rgba(0, 255, 65, 0.05), transparent);">
+        <div class="container">
+            <div class="section-title fade-in">
+                <h2 class="text-glow">How to Buy</h2>
+                <p>Simple steps to get your $CROC tokens</p>
+            </div>
+            
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 32px; margin-top: 64px;">
+                <div class="glass-card tilt-card reveal" style="padding: 40px; text-align: center;">
+                    <div style="width: 80px; height: 80px; margin: 0 auto 24px; background: linear-gradient(135deg, var(--color-accent-primary), var(--color-accent-secondary)); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 36px; box-shadow: 0 0 30px rgba(0, 255, 65, 0.5);">
+                        1
+                    </div>
+                    <h3 style="color: var(--color-accent-primary); margin-bottom: 16px;">Get a Wallet</h3>
+                    <p style="line-height: 1.8;">
+                        Download Phantom wallet from phantom.app and create your Solana wallet
+                    </p>
+                </div>
+                
+                <div class="glass-card tilt-card reveal" style="padding: 40px; text-align: center;">
+                    <div style="width: 80px; height: 80px; margin: 0 auto 24px; background: linear-gradient(135deg, var(--color-accent-primary), var(--color-accent-secondary)); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 36px; box-shadow: 0 0 30px rgba(0, 255, 65, 0.5);">
+                        2
+                    </div>
+                    <h3 style="color: var(--color-accent-primary); margin-bottom: 16px;">Get SOL</h3>
+                    <p style="line-height: 1.8;">
+                        Buy SOL from any exchange and send it to your Phantom wallet address
+                    </p>
+                </div>
+                
+                <div class="glass-card tilt-card reveal" style="padding: 40px; text-align: center;">
+                    <div style="width: 80px; height: 80px; margin: 0 auto 24px; background: linear-gradient(135deg, var(--color-accent-primary), var(--color-accent-secondary)); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 36px; box-shadow: 0 0 30px rgba(0, 255, 65, 0.5);">
+                        3
+                    </div>
+                    <h3 style="color: var(--color-accent-primary); margin-bottom: 16px;">Swap for $CROC</h3>
+                    <p style="line-height: 1.8;">
+                        Visit Jupiter Aggregator and swap your SOL for $CROC tokens
+                    </p>
+                </div>
+                
+                <div class="glass-card tilt-card reveal" style="padding: 40px; text-align: center;">
+                    <div style="width: 80px; height: 80px; margin: 0 auto 24px; background: linear-gradient(135deg, var(--color-accent-primary), var(--color-accent-secondary)); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 36px; box-shadow: 0 0 30px rgba(0, 255, 65, 0.5);">
+                        4
+                    </div>
+                    <h3 style="color: var(--color-accent-primary); margin-bottom: 16px;">HODL & Earn</h3>
+                    <p style="line-height: 1.8;">
+                        Hold your $CROC tokens and participate in staking to earn rewards
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section style="padding: 100px 0;">
+        <div class="container" style="text-align: center;">
+            <h2 class="text-glow-strong" style="font-size: 42px; margin-bottom: 24px;">Ready to Join?</h2>
+            <p style="font-size: 18px; color: var(--color-text-secondary); margin-bottom: 48px;">
+                Start your journey with $CROC Protocol today
+            </p>
+            <a href="https://jup.ag" target="_blank" class="btn btn-primary glow" style="font-size: 20px; padding: 24px 64px;">
+                <i class="fas fa-rocket"></i> Buy Now on Jupiter
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">$CROC</div>
+                <div class="footer-social">
+                    <a href="https://twitter.com" target="_blank" class="social-link glow" title="Twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="https://t.me" target="_blank" class="social-link glow" title="Telegram">
+                        <i class="fab fa-telegram"></i>
+                    </a>
+                    <a href="https://discord.com" target="_blank" class="social-link glow" title="Discord">
+                        <i class="fab fa-discord"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 $CROC Protocol. All rights reserved. | Meme Meets DeFi & AI</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/animation.js"></script>
+    <script src="js/solana.js"></script>
+    <script src="js/chart.js"></script>
+</body>
+</html>
