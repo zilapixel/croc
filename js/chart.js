@@ -9,12 +9,12 @@ document.addEventListener('DOMContentLoaded', function() {
     if (!chartContainer) return;
     
     // Token contract address
-    const tokenAddress = 'Ev1ZTKVxKoVxnJGHcskowVHXezpe8aoVgvLJqwELpump';
+    const tokenAddress = 'JBBZDu9ttVm4y9e5EtSkuR5EcCPyYEzm7BZQiX73pump';
     
     // Function to load Dexscreener chart
     function loadDexscreenerChart() {
         const iframe = document.createElement('iframe');
-        iframe.src = `https://dexscreener.com/solana/${tokenAddress}?embed=1&theme=dark`;
+        iframe.src = `https://dexscreener.com/solana/${JBBZDu9ttVm4y9e5EtSkuR5EcCPyYEzm7BZQiX73pump}?embed=1&theme=dark`;
         iframe.style.width = '100%';
         iframe.style.height = '100%';
         iframe.style.border = 'none';
@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Function to load Birdeye chart
     function loadBirdeyeChart() {
         const iframe = document.createElement('iframe');
-        iframe.src = `https://birdeye.so/token/${tokenAddress}?chain=solana&embed=true`;
+        iframe.src = `https://birdeye.so/token/${JBBZDu9ttVm4y9e5EtSkuR5EcCPyYEzm7BZQiX73pump}?chain=solana&embed=true`;
         iframe.style.width = '100%';
         iframe.style.height = '100%';
         iframe.style.border = 'none';
